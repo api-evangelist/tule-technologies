@@ -1,8 +1,24 @@
 aid: tule-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tule-technologies.png
 name: Tule Technologies
-description: Tule Technologies is a company surfaced as a portfolio company of bloomberg-beta and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Tule Technologies was an agricultural technology company that measured crop water stress
+  and actual evapotranspiration (ET) directly in the field, giving growers irrigation guidance through
+  its FieldStat monitoring tool for orchards, vineyards, and row crops. Backed by Bloomberg Beta, Tule
+  has been acquired by and integrated into CropX; the tuletechnologies.com domain now 301-redirects to
+  cropx.com, where Tule's ET monitoring is combined with soil sensing, weather data, and irrigation
+  management in one platform. Enrichment found no independent public API, developer portal, SDK, or
+  documented developer program for Tule Technologies.
 url: https://raw.githubusercontent.com/api-evangelist/tule-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +26,21 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cropx
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Irrigation
+- Water Management
+- Evapotranspiration
+- Precision Agriculture
+- IoT
+- Sensors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tule-technologies-domain-security.yml
 - type: Website
   url: https://www.tuletechnologies.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
