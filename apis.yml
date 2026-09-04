@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.tuletechnologies.com/', status: 301, note: 'declared website redirects to https://cropx.com/cropx-system/tule-cropx-transition/ — a different registrable domain (tuletechnologies.com -> cropx.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tule-technologies.png
 name: Tule Technologies
 description: Tule Technologies was an agricultural technology company that measured crop water stress
